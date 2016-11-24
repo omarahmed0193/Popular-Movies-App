@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.udacity.popularmovies.main.MainActivity">
+    <item
+        android:id="@+id/action_sort_by_popularity"
+        android:orderInCategory="100"
+        android:title="@string/sort_by_popularity"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_sort_by_top_rated"
+        android:orderInCategory="100"
+        android:title="@string/sort_by_top_rated"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_sort_by_favourite"
+        android:orderInCategory="100"
+        android:title="@string/show_favourites"
+        app:showAsAction="never"/>
+</menu>
